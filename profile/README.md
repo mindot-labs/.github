@@ -9,7 +9,7 @@ Determinism (AID) — and each has a home here:
 | | The question it answers | What answers it |
 | :--- | :--- | :--- |
 | **Automation** | *What happens next?* | **Ripplix** — the agentic backbone: scheduler, deadline watcher, command router |
-| **Intelligence** | *What should happen?* | **Will** — a persistent mind, with the safety modules around it |
+| **Intelligence** | *What should happen?* | **Will** — a persistent mind, acting through Ripplix's authority layer (CA) |
 | **Determinism** | *What actually happened?* | **VLX** — an append-only, hash-chained, independently verifiable ledger |
 
 ---
@@ -68,8 +68,10 @@ can safely run it. Enterprise-grade is the quality bar, not the customer size.
 - **Ripplix, by Mindot** — the agentic backbone. Its foundation (AB) records
   every change as an event, answers blast-radius queries over what depends on
   what, and corrects by compensation, never by overwrite. Its authority layer
-  (CA) stands between a mind and the business: every decision and outcome on
-  the record.
+  (CA) is the boundary between the business and every agent acting in it,
+  each Will and any other: no act runs until its authorization is on the
+  record, autonomy is earned and never for what cannot be undone, and every
+  act is judged under the business's own Constitutions.
 - **VLX — Verifiable Ledger eXecution** — the log of record beneath it:
   append-only, hash-chained, verifiable by anyone without trusting the
   operator. Ripplix writes business events to it; Will anchors its decisions
